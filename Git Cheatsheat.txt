@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name "Sandeep-Yedla"
+git config --global user.email "yxv180001@utdallas.edu"
+git init
+git add .
+git status
+git commit -m "initial Commit"
+$ ssh-keygen -t rsa -b 4096 -C "yxv180001@utdallas.edu"
+tail/cat <path to id_rsa.pub> #Adding this key to github
+git remote add origin <ssh url.git>
+git push origin master
