@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+{%load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sandeep Yedla Website </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/venobox/venobox.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/aos/aos.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static '/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.5.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="{% static 'img/prof_pic.jpeg' %}" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="/">Sandeep Yedla</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/SandeepYedla2216" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/sandeep-yedla/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100001131663814" class="facebook"><i
+              class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/zaabaazz/" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="{% static 'img/SandeepYedlaDE.pdf' %}"><i class="bx bx-arrow-to-bottom"></i> <span>Resume</span></a></li>
+          <li><a href="#projects"><i class="bx bx-book-content"></i> Projects</a></li>
+          <li><a href="#Recommendations"><i class="bx bx-server"></i> Recommendations</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Sandeep Yedla</h1>
+      <p>I'm <span class="typed"
+          data-typed-items="I am a Data Enthusiast, Python Programmer, Graduate of UTD, Footballer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Welcome to my website!! I am Sandeep Yedla, a recent graduate from The University Of Texas at Dallas, majored in Information Technology.
+            
+         
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static 'img/pic1.jpeg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Data Engineer &amp; BI Developer.</h3>
+            <p class="font-italic">
+              I am a recent graduate from The University of Texas at Dallas majored in Information Technology and Management
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.sandeepyedla.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +425 551 9040</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Philadelphia, USA</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> yxv180001@utdallas.edu</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>University:</strong> UT Dallas</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I have a good experience on Programming in python, Big Data Ecosystem, Designing and building ETL Architecture, 
+              Data warehousing, Databases(SQL and NoSQL) and Query Optimisation.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">SQL<i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python Programming<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Big Data<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Data Analytics<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">CLoud Applications(AWS)<i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Other Languages (Scala, Shell Scripting)<i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Data Structures & Algorithms/System Design<i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="progress">
+              <span class="skill">Operating Systems (Linux)<i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- Begin Projects Section -->
+    <section id="projects" class="projects"></section>
+    <div class="container my-3">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/Big-Data.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Data Engineer</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/pic_DE.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Programmer</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/pic_DE.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sports Enthusiast</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end proejcts-->
+    <section id="Recommendations" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Recommendations</h2>
+          <p>Few of my colleagues, Managers, Tech Architects as well as my fellow students at Academic Projects and Student organisations has recommendations on me
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sandeep is an amazing person to work with. His patience and his way of solving complex scenarios motivated me to follow his way. Good team player and such a cool guy. I would like to work with him again if I get a chance. All the best for your future endeavors.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3>Sravan Lingam</h3>
+            <h4>Tech Architect</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              It was a pleasure to work with Sandeep closely. I am amazed by the skills that Sandeep has. He has knowledge of two different domains, Big Data and MuleSoft. It's very rare to have that combo of knowledge. I would definitely recommend him If i get a chance! Keep inspiring us.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3>Srinivas Reddy</h3>
+            <h4>Sr Developer</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              I know Sandeep for about 2 years now. He is extremely talented not just in his field, but otherwise as well. I have worked with him closely as a part of the organization, ‘Indian Students Association’ where he served as an officer, exhibiting his leadership skills and organizations skills. He is a great team player and can handle adverse situations.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3>Gayatri Kolluri</h3>
+            <h4>Ex-ISA President</h4>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <section id="contact" class="contact"></section>
+    <div class="navigation">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <form action="/contact" method="post">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Your Number">
+          </div>
+
+
+          <div class="form-group">
+            <label for="exampleTextarea">Give me your feedback</label>
+            <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary my-3">Submit</button>
+        </form>
+      </div>
+
+    </div>
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static '/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static '/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static '/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static '/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static '/vendor/counterup/counterup.min.js' %}"></script>
+  <script src="{% static '/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static '/vendor/venobox/venobox.min.js' %}"></script>
+  <script src="{% static '/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static '/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static '/vendor/aos/aos.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static '/js/main.js' %}"></script>
+
+</body>
+
+</html>
