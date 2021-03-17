@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '&ixltf%9-$_%c07b0#tu*utkti6dx4#wujr1wc*bf#pm*g02_h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sandywebsite.herokuapp.com','127.0.0.1']
 
 
 # Application definition
